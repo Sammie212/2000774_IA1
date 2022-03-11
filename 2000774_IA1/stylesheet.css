@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+
+
+body{
+font-family: 'Charm', cursive;
+font-size: 20px;
+font-weight: 20px;
+color: purple;
+line-height:1.6 ;
+background-image:url('Assets/wepspace.jpg') ;
+background-repeat: repeat;
+height:100vh;
+background-size: cover;
+background-position:center; 
+   
+}
+
+.logo img{
+    float:left;
+    width:120px;
+    height:auto;
+    border-radius: 50%;
+}
+ .button{
+    font-size: 15px;
+    text-decoration:none;
+    color: purple;
+    border:rgb(78, 5, 66) 2px solid; 
+    padding: 8px 7px;
+    border-radius: 60px;
+    box-shadow: 2px 2px lightgrey;
+    margin-top: 25px;
+    margin-right: 4px;
+    transition: 0.9s ease;
+    
+}
+nav{
+    display: flex;
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+ nav li{
+    display:inline-block;
+ }
+nav .button:hover{
+background: rgb(78, 5, 66);
+color: white
+}
+.box{
+    width: 450px;
+    background: rgba(105, 215, 243, 0.5);
+    padding:10px;
+    text-align: center;
+    margin: auto;
+    color: purple;
+    border-radius: 20%;
+}
+.box-img{
+    border-radius: 40%;
+}
+
+img{
+    float:bottom left;
+    width: 280px;
+    height: 300px;
+}
+
+.title p{
+    font-size:20px;
+}
+.active .button{
+    background-color: rgb(255, 231, 251);
+    color: purple;
+}
+footer li{
+    display: inline;
+}
+footer .button:hover{
+    background: rgb(78, 5, 66);
+    color: white
+}
+footer .active.button{
+    background-color: rgb(255, 231, 251);
+    color: purple;
+}
+.copyright{
+    color:black;
+}
